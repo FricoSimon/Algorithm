@@ -1,6 +1,6 @@
 const listItems = [1, 2, 3, 4, 5, 6, 7, 8, 9]; // array numbers
 
-// binary tree function
+// binary search function
 const binarySearch = (list, item) => {
     let low = 0 // starting index
     let high = list.length - 1 // max index 
