@@ -7,7 +7,7 @@ const simpleSearch = (list, item) => {
 
     while (first <= item) {
         if (first === item) {
-            return first
+            return index
         }
         index++
         first = list[index]
@@ -15,4 +15,4 @@ const simpleSearch = (list, item) => {
     return "Not found"
 }
 
-console.log(simpleSearch(listItems, 9));
+console.log(simpleSearch(listItems, 1));
