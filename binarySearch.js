@@ -1,7 +1,7 @@
 const listItems = [1, 2, 3, 4, 5, 6, 7, 8, 9]; // array numbers
 
 // binary tree function
-const binaryTree = (list, item) => {
+const binarySearch = (list, item) => {
     let low = 0 // starting index
     let high = list.length - 1 // max index 
 
@@ -19,4 +19,4 @@ const binaryTree = (list, item) => {
     return "Item not found"
 }
 
-console.log(binaryTree(listItems, 1));
+console.log(binarySearch(listItems, 1));
