@@ -1,18 +1,18 @@
-const listItem = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+const listItem = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 // reverse search function
 const reverseSearch = (list, item) => {
-    let index = list.length - 1
-    let max = list[index]
+    let index = list.length - 1;
+    let max = list[index];
 
     while (index >= 0) {
         if (max === item) {
-            return index
+            return index;
         }
-        index--
-        max = list[index]
+        index--;
+        max = list[index];
     }
-    return "Not found!"
+    return "Not found!";
 }
 
 console.log(reverseSearch(listItem, 5));

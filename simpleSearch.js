@@ -1,18 +1,18 @@
-const listItems = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+const listItems = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 // simple search function
 const simpleSearch = (list, item) => {
-    let index = 0
-    let first = list[index]
+    let index = 0;
+    let first = list[index];
 
     while (first <= item) {
         if (first === item) {
-            return index
+            return index;
         }
-        index++
-        first = list[index]
+        index++;
+        first = list[index];
     }
-    return "Not found"
+    return "Not found";
 }
 
 console.log(simpleSearch(listItems, 1));
