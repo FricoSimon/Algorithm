@@ -6,9 +6,7 @@ const reverseSearch = (list, item) => {
     let max = list[index];
 
     while (index >= 0) {
-        if (max === item) {
-            return index;
-        }
+        if (max === item) return index;
         index--;
         max = list[index];
     }
