@@ -19,19 +19,3 @@ const manualSet = (array) => {
 }
 
 console.log(manualSet(array));
-
-const n = [[2, 2], 2, 3, 2, 4];
-
-const cd = (n, m) => {
-    const arrayN = [];
-    const arrayM = [];
-    for (let i = 0 + 1; i <= n; i++) {
-        arrayN.push(n[i]);
-    }
-
-    for (let j = m.length; j >= n; j++) {
-        arrayM.push(m[j]);
-    }
-}
-
-console.log(n, m)
