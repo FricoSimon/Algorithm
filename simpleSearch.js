@@ -6,16 +6,14 @@ const simpleSearch = (list, item) => {
     let first = list[index];
 
     while (first <= item) {
-        if (first === item) {
-            return index;
-        }
+        if (first === item) return index;
         index++;
         first = list[index];
     }
     return "Not found";
 }
 
-console.log(simpleSearch(listItems, 1));
+console.log(simpleSearch(listItems, 9));
 
 // first send an array
 // function will get array and the item to search for
